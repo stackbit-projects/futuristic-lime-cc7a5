@@ -164,7 +164,7 @@ function postsVariantB(props) {
                         className={classNames('sb-card', {
                             'md:col-span-2': index % 4 === 0 || (index + 1) % 4 === 0
                         })}
-                        data-sb-object-id={post.__metadata.id}
+                        data-sb-object-id={post.__metadata?.id}
                     >
                         {post.featuredImage && (
                             <Link
