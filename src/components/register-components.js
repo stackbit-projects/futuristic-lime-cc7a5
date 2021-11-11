@@ -4,8 +4,8 @@ import { componentsMap } from '@stackbit/components/dist/components-map';
 import FeaturedPostsSection from "./FeaturedPostsSection.tsx"
 registerComponents({
     // Register all Stackbit components
-    ...componentsMap
-
+    ...componentsMap,
+FeaturedPostsSection:FeaturedPostsSection
     // Override any static or dynamic component,
     // or register your own dynamic component.
 });
