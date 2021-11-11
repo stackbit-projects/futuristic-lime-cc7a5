@@ -6,6 +6,8 @@ import { mapStylesToClassNames as mapStyles } from '@stackbit/components/dist/ut
 import getPageUrlPath from '@stackbit/components/dist/utils/get-page-url-path';
 import Link from '@stackbit/components/dist/utils/link';
 
+
+
 export default function FeaturedPostsSection(props) {
     const cssId = props.elementId || null;
     const colors = props.colors || 'colors-a';
